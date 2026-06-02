@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="AI工具导航：覆盖AI视频、绘图、办公、编程、大模型与跨境电商常见场景推荐。"
+    />
+    <title>AI工具导航 | 2026实战版</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="主导航">
+        <a class="brand" href="#top" aria-label="AI工具导航首页">
+          <span class="brand-mark">AI</span>
+          <span>工具导航</span>
+        </a>
+        <div class="nav-links">
+          <a href="#categories">分类</a>
+          <a href="#scenarios">场景</a>
+          <a href="#playbooks">工作流</a>
+          <a href="#practices">最佳实践</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Updated 2026-06-02 · 实战工具栈</p>
+          <h1>把 AI 工具从“收藏夹”变成“可执行工作流”。</h1>
+          <p class="hero-lead">
+            面向内容、电商、办公与研发团队的 AI 工具导航。按任务选择工具组合，
+            看清适用场景、接力方式、注意事项和官网入口。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#scenarios">按场景选工具</a>
+            <a class="button secondary" href="#categories">浏览全部分类</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="推荐组合">
+          <div class="stack-card active">
+            <span>商品图</span>
+            <strong>Midjourney / ChatGPT Image 2 + Photoshop</strong>
+          </div>
+          <div class="stack-card">
+            <span>短视频</span>
+            <strong>Runway + 可灵 + 即梦</strong>
+          </div>
+          <div class="stack-card">
+            <span>文案</span>
+            <strong>ChatGPT + 豆包 + DeepSeek</strong>
+          </div>
+        </aside>
+      </section>
+
+      <section class="toolbar" aria-label="筛选工具">
+        <label class="search">
+          <span>搜索</span>
+          <input id="searchInput" type="search" placeholder="输入工具名、场景或能力，如 PDF、视频、PPT" />
+        </label>
+        <div class="filters" id="filters" aria-label="分类筛选"></div>
+      </section>
+
+      <section class="section" id="categories">
+        <div class="section-heading">
+          <p class="eyebrow">Tool Map</p>
+          <h2>AI 工具分类导航</h2>
+          <p>覆盖你指定的 AI 视频、绘图、办公、编程、大模型，并补充本地化、电商和数字人。</p>
+        </div>
+        <div class="tool-grid" id="toolGrid"></div>
+      </section>
+
+      <section class="section band" id="scenarios">
+        <div class="section-heading">
+          <p class="eyebrow">Scenario Picks</p>
+          <h2>场景推荐工具</h2>
+          <p>不是单点工具排名，而是按交付物串联：先产出草案，再统一风格，最后做人工质检。</p>
+        </div>
+        <div class="scenario-grid" id="scenarioGrid"></div>
+      </section>
+
+      <section class="section" id="playbooks">
+        <div class="section-heading">
+          <p class="eyebrow">Playbooks</p>
+          <h2>高频工作流</h2>
+          <p>把工具组合成可复用步骤，减少“试了很多工具但交付不稳定”的问题。</p>
+        </div>
+        <div class="playbook-list">
+          <article class="playbook">
+            <span class="step">01</span>
+            <div>
+              <h3>跨境商品图迭代</h3>
+              <p>ChatGPT 拆卖点与镜头脚本，Midjourney 生成主视觉方向，Photoshop 做抠图、局部改色、平台尺寸适配。</p>
+            </div>
+          </article>
+          <article class="playbook">
+            <span class="step">02</span>
+            <div>
+              <h3>短视频批量生产</h3>
+              <p>豆包或 ChatGPT 出脚本，可灵/即梦做本土化镜头，Runway 或 Luma 统一镜头质感，剪映完成字幕、节奏和发布格式。</p>
+            </div>
+          </article>
+          <article class="playbook">
+            <span class="step">03</span>
+            <div>
+              <h3>知识资料到 PPT</h3>
+              <p>Kimi 处理长文档和 PDF，ChatGPT 提炼结构，Gamma / AiPPT 生成演示稿，再人工补业务判断和关键图表。</p>
+            </div>
+          </article>
+          <article class="playbook">
+            <span class="step">04</span>
+            <div>
+              <h3>上架与本地化</h3>
+              <p>DeepL 做第一轮高质量翻译，GPT 做语气和市场本地化，Coze 加自动化脚本处理标题、属性、变体和批量导入表。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section band" id="practices">
+        <div class="section-heading">
+          <p class="eyebrow">Best Practices</p>
+          <h2>2026 最佳实践清单</h2>
+        </div>
+        <div class="practice-grid">
+          <article>
+            <h3>1. 按交付物选工具</h3>
+            <p>视频、PPT、PDF、代码和商品图的评估标准不同。先定义交付物，再挑主工具与补位工具。</p>
+          </article>
+          <article>
+            <h3>2. 用参考资产保持一致</h3>
+            <p>人物、产品、品牌色和镜头风格要沉淀成参考图、提示词模板、负面词和审核清单。</p>
+          </article>
+          <article>
+            <h3>3. 中英工具混搭</h3>
+            <p>国内工具适合中文语境、平台素材和短视频节奏，海外工具适合品牌质感、翻译和全球化表达。</p>
+          </article>
+          <article>
+            <h3>4. 人工复核不可省</h3>
+            <p>版权、商标、事实、价格、平台规则和医学法律等高风险内容必须人工确认，不把 AI 输出直接上线。</p>
+          </article>
+          <article>
+            <h3>5. 批量任务要留日志</h3>
+            <p>批量上架、自动化脚本和 Agent 工作流要记录输入、输出、失败原因和人工改动，方便回滚。</p>
+          </article>
+          <article>
+            <h3>6. 小步快测</h3>
+            <p>每次只测一个变量：提示词、参考图、模型、比例或受众。用 A/B 结果反推下一轮创作。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section sources" id="sources">
+        <div class="section-heading">
+          <p class="eyebrow">Sources</p>
+          <h2>资料来源</h2>
+          <p>页面信息结合官网与公开产品页整理，建议上线前按预算和地区可用性再次确认。</p>
+        </div>
+        <div class="source-list" id="sourceList"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>AI工具导航 · 为内容、电商、办公和研发团队整理</p>
+      <a href="#top">回到顶部</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
