@@ -91,6 +91,13 @@ const tools = [
     url: "https://www.kimi.com/"
   },
   {
+    name: "Remio",
+    category: "AI办公",
+    summary: "本地优先的 AI memory 和个人知识库，可解析文件、网页、录音、邮件、消息、图片和笔记，建立本地索引与向量，快速检索个人上下文。",
+    tags: ["知识库", "本地优先", "文件解析"],
+    url: "https://remio.ai/"
+  },
+  {
     name: "Windsurf / Codeium",
     category: "AI编程",
     summary: "AI 编程编辑器与代理能力，适合项目级上下文、代码修改和审查。",
@@ -174,6 +181,7 @@ const scenarios = [
   ["视频", "Runway + 可灵 + 即梦", "Runway 管质感，可灵/即梦做中文平台镜头和人物动作，最后剪映完成字幕与节奏。"],
   ["文案", "ChatGPT + 豆包 + DeepSeek", "ChatGPT 做策略和结构，豆包润色中文口语化，DeepSeek 承接推理与批量草稿。"],
   ["长文本/PDF", "Kimi", "适合先做资料摄取、结构化摘要、问答和证据定位，再交给 PPT 或写作工具。"],
+  ["个人知识库", "Remio", "先把文件、网页、录音、邮件和笔记沉淀到本地索引与向量中，再让 AI 检索聚焦上下文，减少重复扫描资料的 token 成本。"],
   ["PPT 制作", "Gamma / AiPPT", "Gamma 偏国际化和网页化交付，AiPPT 更适合中文模板和企业汇报。"],
   ["批量上架", "Coze + 自动化脚本", "把标题、属性、翻译、主图检查和导入表拆成可追踪节点，保留人工审核点。"],
   ["翻译本地化", "DeepL + GPT", "DeepL 做准确翻译，GPT 按市场、渠道和人群重写语气。"],
@@ -187,6 +195,7 @@ const sources = [
   ["Midjourney", "https://www.midjourney.com/home"],
   ["Gamma", "https://gamma.app/"],
   ["AiPPT", "https://www.aippt.cn/"],
+  ["Remio", "https://remio.ai/"],
   ["Windsurf / Codeium", "https://windsurf.com/"],
   ["Amazon Q Developer", "https://aws.amazon.com/q/developer/"],
   ["Claude", "https://www.anthropic.com/claude"],
