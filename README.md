@@ -7,7 +7,7 @@
 - AI 视频：Runway、Luma AI、MiniMax Hailuo、可灵、即梦
 - AI 绘图：Midjourney、ChatGPT Image 2、Canva、Photoshop
 - AI 办公：Gamma、ChatPPT、AiPPT、Kimi
-- AI 编程：Windsurf / Codeium、Amazon Q Developer
+- AI 编程：Windsurf / Codeium、Amazon Q Developer、agent-qa
 - AI 大模型：ChatGPT、Gemini、Claude、豆包、DeepSeek
 - 场景推荐：商品图、视频、文案、PDF/PPT、批量上架、翻译本地化、数字人
 
