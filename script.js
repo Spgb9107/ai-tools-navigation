@@ -105,6 +105,13 @@ const tools = [
     url: "https://aws.amazon.com/q/developer/"
   },
   {
+    name: "agent-qa",
+    category: "AI编程",
+    summary: "用自然语言测试 Web、Android 与 iOS，结合 memidex 持久记忆和经验证的自我改进，复用测试经验。",
+    tags: ["自动化测试", "持久记忆", "MCP"],
+    url: "https://vostride.com"
+  },
+  {
     name: "ChatGPT",
     category: "AI大模型",
     summary: "通用对话、写作、分析、图像生成、资料整理和自动化构思。",
@@ -189,6 +196,7 @@ const sources = [
   ["AiPPT", "https://www.aippt.cn/"],
   ["Windsurf / Codeium", "https://windsurf.com/"],
   ["Amazon Q Developer", "https://aws.amazon.com/q/developer/"],
+  ["agent-qa", "https://vostride.com"],
   ["Claude", "https://www.anthropic.com/claude"],
   ["HeyGen", "https://www.heygen.com/"],
   ["DeepL", "https://www.deepl.com/translator"]
